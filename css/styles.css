@@ -10,12 +10,54 @@ Fuente de la página
   Estilos 200 y 400
 */
 
+
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  /* background-color: #333; */
-  /* color: #fff; */
+    background-color: #333;
+    color: #fff;
 }
 
+.card{
+    width: 45%;
+    margin: 5% auto;
+    
+
+}
+
+.card__header{
+    overflow: hidden;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 4%;
+}
+
+.background-white{
+    background-color: white;
+}
+
+.font-family{
+    font-family: 'Karla', sans-serif;
+}
+
+.font-weight-200{
+    font-weight: 200;
+}
+
+.font-weight-400{
+    font-weight: 400;
+}
+
+.font-color-cyan{
+    color: hsl(179, 62%, 43%);
+}
+
+.font-color-lime{
+    color: hsl(71, 73%, 54%);
+}
+
+.font-color-grey{
+    color: hsl(200, 3%, 81%)
+}
