@@ -22,42 +22,63 @@ body {
 
 .card{
     width: 45%;
-    margin: 5% auto;
-    
-
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card__header{
-    overflow: hidden;
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 4%;
+    overflow: hidden;
 }
 
-.background-white{
+
+.bg--white{
     background-color: white;
 }
 
-.font-family{
+.bg--light--blue{
+    background-color: hsl(179, 62%, 43%);
+}
+
+.bg--cyan{
+    background-color: hsl(178, 55%, 38%);
+}
+
+.font--family{
     font-family: 'Karla', sans-serif;
 }
 
-.font-weight-200{
+.font--weight--200{
     font-weight: 200;
 }
 
-.font-weight-400{
+.font--weight--400{
     font-weight: 400;
 }
 
-.font-color-cyan{
+.font--color--cyan{
     color: hsl(179, 62%, 43%);
 }
 
-.font-color-lime{
+.font--color--lime{
     color: hsl(71, 73%, 54%);
 }
 
-.font-color-grey{
+.font--color--grey{
     color: hsl(200, 3%, 81%)
 }
+
+.inline--block{
+    display: inline-block;
+}
+
+.display--flex{
+    display: flex;
+}
+
+.body--width{
+    width: 50%;
+}
+
